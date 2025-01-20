@@ -93,19 +93,19 @@ jobs:
                 
                 sudo docker stop ${DB_HOST} || true
                 sudo docker rm ${DB_HOST} || true
-                sudo docker stop portfolio_manager_telegram || true
-                sudo docker rm portfolio_manager_telegram || true
-                sudo docker stop portfolio_manager_scan || true
-                sudo docker rm portfolio_manager_scan || true
-                sudo docker stop portfolio_manager_altcoin || true
-                sudo docker rm portfolio_manager_altcoin || true
+                sudo docker stop portfolium_telegram || true
+                sudo docker rm portfolium_telegram || true
+                sudo docker stop portfolium_scan || true
+                sudo docker rm portfolium_scan || true
+                sudo docker stop portfolium_altcoin || true
+                sudo docker rm portfolium_altcoin || true
                 sudo docker stop pmyadmin || true
                 sudo docker rm pmyadmin || true
                 sudo docker system prune -a -f
                 
                 sudo docker pull $REGISTRY/$DOCKER_REPOSITORY:$IMAGE_TAG
                 sudo docker pull $REGISTRY/$DOCKER_REPOSITORY:$DB_TAG
-                sudo docker network create portfolio_manager
+                sudo docker network create portfolium
 
 
 
@@ -115,7 +115,7 @@ jobs:
                   --restart=on-failure \
                   -e MYSQL_ROOT_PASSWORD="${MYSQL_ROOT_PASSWORD}" \
                   -e MYSQL_DATABASE="${MYSQL_DATABASE}" \
-                  --network portfolio_manager \
+                  --network portfolium \
                   -p 3306:3306 \
                   -v /home/ec2-user/data/db_data:/var/lib/mysql \
                   $REGISTRY/$DOCKER_REPOSITORY:$DB_TAG
@@ -132,8 +132,8 @@ jobs:
 
 
                 sudo docker run -d \
-                  --name portfolio_manager_telegram \
-                  --network portfolio_manager \
+                  --name portfolium_telegram \
+                  --network portfolium \
                   --volume /home/ec2-user/data:/data \
                   --restart on-failure \
                   -e MYSQL_ROOT_PASSWORD="${MYSQL_ROOT_PASSWORD}" \
@@ -156,9 +156,9 @@ jobs:
 
                 
                 sudo docker run -d \
-                  --name portfolio_manager_altcoin \
+                  --name portfolium_altcoin \
                   --restart=on-failure \
-                  --network portfolio_manager \
+                  --network portfolium \
                   --volume /home/ec2-user/data:/data \
                   -p 80:8000 \
                   $REGISTRY/$DOCKER_REPOSITORY:$IMAGE_TAG altcoin

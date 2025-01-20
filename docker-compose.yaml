@@ -1,82 +1,26 @@
-# Docker Compose for Running Locally
-
 networks:
   telegram:
     name: telegram  # Custom network for communication between containers
 
 services:
-  db:
-    image: portfolio_manager_db
+  #Launches dev version of docker
+  portfolium_dev:
     build:
-      context: .
-      dockerfile: Docker/MySQLDockerfile
-      args:
-        MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-        MYSQL_DATABASE: ${MYSQL_DATABASE}
-    restart: on-failure
-    environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-    networks:
-      - telegram
-    ports:
-      - "3306:3306"  # Expose MySQL port on the host
-    volumes:
-      - ./db_data:/var/lib/mysql  # Persist database data
-
-
-  portfolio_manager_scan:
-    image: portfolio_manager
-    build:
-      context: .
-      dockerfile: Docker/Dockerfile
-      labels:
-        - portfolio_manager_scan
-    restart: on-failure
+        context: .
+        dockerfile: ./Docker/dev/Dockerfile
+    container_name: portfolium_dev
+    user: root
     env_file:
-      - .env
-    networks:
-      - telegram
+      - ./.env
+    hostname: "localhost"
+    ports:
+      - "8000:8000"
     volumes:
-      - ./data:/data  # Mount data directory
-    depends_on:
-      - db
-    command: scan
+      - ./requirements.txt:/app/requirements.txt
+      - ./setup.py:/app/manage.py
+      - ./portfolium:/app/portfolium
+    command: ./entrypoint.sh
     tty: true
 
-  portfolio_manager_telegram:
-    image: portfolio_manager
-    build:
-      context: .
-      dockerfile: Docker/Dockerfile
-      labels:
-        - portfolio_manager_telegram
-    restart: on-failure
-    env_file:
-      - .env
-    networks:
-      - telegram
-    volumes:
-      - ./data:/data  # Mount data directory
-    depends_on:
-      - db
-    command: telegram
-
-
-  portfolio_manager_altcoin:
-    image: portfolio_manager
-    build:
-      context: .
-      dockerfile: Docker/Dockerfile
-      labels:
-        - portfolio_manager_altcoin
-    restart: on-failure
-    env_file:
-      - .env
-    networks:
-      - telegram
-    volumes:
-      - ./data:/data  # Mount data directory
-    depends_on:
-      - db
-    command: altcoin
+volumes:
+  data:

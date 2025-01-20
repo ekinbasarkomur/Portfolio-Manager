@@ -1,4 +1,4 @@
-"""Python setup.py for portfolio_manager package"""
+"""Python setup.py for portfolium package"""
 import io
 import os
 from setuptools import find_packages, setup
@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 def read(*paths, **kwargs):
     """Read the contents of a text file safely.
-    >>> read("portfolio_manager", "VERSION")
+    >>> read("portfolium", "VERSION")
     '0.1.0'
     >>> read("README.md")
     ...
@@ -30,17 +30,17 @@ def read_requirements(path):
 
 
 setup(
-    name="portfolio_manager",
-    version=read("portfolio_manager", "VERSION"),
-    description="Awesome portfolio_manager created by ekinbasarkomur",
-    url="https://github.com/ekinbasarkomur/portfolio_manager/",
+    name="portfolium",
+    version=read("portfolium", "VERSION"),
+    description="Awesome portfolium created by ekinbasarkomur",
+    url="https://github.com/ekinbasarkomur/portfolium/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     author="ekinbasarkomur",
     packages=find_packages(exclude=["tests", ".github"]),
     install_requires=read_requirements("requirements.txt"),
     entry_points={
-        "console_scripts": ["portfolio_manager = portfolio_manager.__main__:main"]
+        "console_scripts": ["portfolium = portfolium.__main__:main"]
     },
     #extras_require={"test": read_requirements("requirements-test.txt")},
 )

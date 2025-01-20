@@ -6,3 +6,5 @@ requests==2.31.0
 setuptools==75.1.0
 flask==3.0.3
 gunicorn==23.0.0
+python-dotenv==1.0.1
+python-binance==1.0.27
