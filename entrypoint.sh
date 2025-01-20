@@ -2,8 +2,8 @@
 
 echo "Entrypoint script running"
 
-# Run the strategie_meister command with all arguments passed
-strategie_meister "$@"
+# Run the portfolio_manager command with all arguments passed
+portfolio_manager "$@"
 
-# Exit with the same status code as strategie_meister
+# Exit with the same status code as portfolio_manager
 exit $?

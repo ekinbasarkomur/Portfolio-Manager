@@ -1,4 +1,4 @@
-"""Python setup.py for strategie_meister package"""
+"""Python setup.py for portfolio_manager package"""
 import io
 import os
 from setuptools import find_packages, setup
@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 def read(*paths, **kwargs):
     """Read the contents of a text file safely.
-    >>> read("strategie_meister", "VERSION")
+    >>> read("portfolio_manager", "VERSION")
     '0.1.0'
     >>> read("README.md")
     ...
@@ -30,17 +30,17 @@ def read_requirements(path):
 
 
 setup(
-    name="strategie_meister",
-    version=read("strategie_meister", "VERSION"),
-    description="Awesome strategie_meister created by ekinbasarkomur",
-    url="https://github.com/ekinbasarkomur/strategie_meister/",
+    name="portfolio_manager",
+    version=read("portfolio_manager", "VERSION"),
+    description="Awesome portfolio_manager created by ekinbasarkomur",
+    url="https://github.com/ekinbasarkomur/portfolio_manager/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     author="ekinbasarkomur",
     packages=find_packages(exclude=["tests", ".github"]),
     install_requires=read_requirements("requirements.txt"),
     entry_points={
-        "console_scripts": ["strategie_meister = strategie_meister.__main__:main"]
+        "console_scripts": ["portfolio_manager = portfolio_manager.__main__:main"]
     },
     #extras_require={"test": read_requirements("requirements-test.txt")},
 )

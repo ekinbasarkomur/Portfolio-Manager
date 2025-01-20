@@ -10,7 +10,6 @@ scrape_script.py
 __pycache__/
 build/
 dist/
-data/
 *.pem
 db_data/
 .env
