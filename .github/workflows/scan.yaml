@@ -1,0 +1,52 @@
+name: Scan Coins
+
+on:
+    workflow_dispatch:
+
+
+env:
+    AWS_REGION: eu-central-1
+    AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+    AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    PRIVATE_SSH_KEY: ${{ secrets.AWS_SSH_KEY }}
+    SERVER_PUBLIC_IP: ${{ secrets.AWS_PUBLIC_KEY }}
+    DOCKER_REPOSITORY: buy-sell
+    IMAGE_TAG: strategie-meister-${{ github.ref_name }}
+
+    MYSQL_ROOT_PASSWORD: ${{ secrets.MYSQL_ROOT_PASSWORD }}
+    MYSQL_DATABASE: ${{ secrets.MYSQL_DATABASE }}
+    DB_HOST: ${{ secrets.DB_HOST }}
+    DB_USER: ${{ secrets.DB_USER }}
+
+
+jobs:
+    scan-coins:
+        runs-on: ubuntu-latest
+
+        steps:
+          - name: Login to AWS ECR
+            id: login-ecr
+            uses: aws-actions/amazon-ecr-login@v1
+          
+          - name: Scan coins
+            env:
+              REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+            uses: appleboy/ssh-action@master
+            with:
+              host: ${{ env.SERVER_PUBLIC_IP }}
+              username: ec2-user
+              key: ${{ env.PRIVATE_SSH_KEY }}
+              envs: PRIVATE_SSH_KEY,REGISTRY,DOCKER_REPOSITORY,IMAGE_TAG,AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_REGION, CYCLE_INVERVAL, MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, DB_HOST, DB_USER
+              command_timeout: 120m
+              script: |-
+                #[ -f "/home/ec2-user/data/scan_data.csv" ] && rm "/home/ec2-user/data/scan_data.csv" || echo "File not found"
+                sudo docker run \
+                  -t --rm \
+                  --name strategie_meister_scan \
+                  --network strategie_meister \
+                  --volume /home/ec2-user/data:/data \
+                  -e MYSQL_ROOT_PASSWORD="${MYSQL_ROOT_PASSWORD}" \
+                  -e MYSQL_DATABASE="${MYSQL_DATABASE}" \
+                  -e DB_HOST="${DB_HOST}" \
+                  -e DB_USER="${DB_USER}" \
+                  $REGISTRY/$DOCKER_REPOSITORY:$IMAGE_TAG scan

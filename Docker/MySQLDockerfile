@@ -1,0 +1,15 @@
+# Use the official MySQL image
+FROM mysql:8.0
+
+
+# Define build arguments for environment variables
+ARG MYSQL_ROOT_PASSWORD
+ARG MYSQL_DATABASE
+
+# Set environment variables based on build arguments
+ENV MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+ENV MYSQL_DATABASE=${MYSQL_DATABASE}
+
+# Copy schema.sql to the MySQL initialization directory
+COPY schema.sql /docker-entrypoint-initdb.d/
+#RUN /bin/bash -c "mysql -u root -p$MYSQL_ROOT_PASSWORD $MYSQL_DATABASE < /docker-entrypoint-initdb.d/schema.sql"

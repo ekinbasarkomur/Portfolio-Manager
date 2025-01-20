@@ -1,0 +1,82 @@
+# Docker Compose for Running Locally
+
+networks:
+  telegram:
+    name: telegram  # Custom network for communication between containers
+
+services:
+  db:
+    image: strategie_meister_db
+    build:
+      context: .
+      dockerfile: Docker/MySQLDockerfile
+      args:
+        MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+        MYSQL_DATABASE: ${MYSQL_DATABASE}
+    restart: on-failure
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+    networks:
+      - telegram
+    ports:
+      - "3306:3306"  # Expose MySQL port on the host
+    volumes:
+      - ./db_data:/var/lib/mysql  # Persist database data
+
+
+  strategie_meister_scan:
+    image: strategie_meister
+    build:
+      context: .
+      dockerfile: Docker/Dockerfile
+      labels:
+        - strategie_meister_scan
+    restart: on-failure
+    env_file:
+      - .env
+    networks:
+      - telegram
+    volumes:
+      - ./data:/data  # Mount data directory
+    depends_on:
+      - db
+    command: scan
+    tty: true
+
+  strategie_meister_telegram:
+    image: strategie_meister
+    build:
+      context: .
+      dockerfile: Docker/Dockerfile
+      labels:
+        - strategie_meister_telegram
+    restart: on-failure
+    env_file:
+      - .env
+    networks:
+      - telegram
+    volumes:
+      - ./data:/data  # Mount data directory
+    depends_on:
+      - db
+    command: telegram
+
+
+  strategie_meister_altcoin:
+    image: strategie_meister
+    build:
+      context: .
+      dockerfile: Docker/Dockerfile
+      labels:
+        - strategie_meister_altcoin
+    restart: on-failure
+    env_file:
+      - .env
+    networks:
+      - telegram
+    volumes:
+      - ./data:/data  # Mount data directory
+    depends_on:
+      - db
+    command: altcoin

@@ -1,0 +1,16 @@
+venv
+.DS_Store
+.idea
+__pycache__
+better_version
+dex/tt.py
+dex/test_allwoance.py
+scrape_script.py
+*.egg-info
+__pycache__/
+build/
+dist/
+data/
+*.pem
+db_data/
+.env
