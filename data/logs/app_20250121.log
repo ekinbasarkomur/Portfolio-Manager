@@ -1,0 +1,659 @@
+2025-01-21 03:11:48,191 [INFO] Logger initialized successfully.
+2025-01-21 03:11:48,191 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 03:11:48,191 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 03:19:08,878 [INFO] Logger initialized successfully.
+2025-01-21 03:19:08,879 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 03:19:08,879 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 03:19:15,690 [INFO] Logger initialized successfully.
+2025-01-21 03:19:15,690 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 03:19:15,690 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 03:19:23,969 [INFO] Logger initialized successfully.
+2025-01-21 03:19:23,969 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 03:19:23,969 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 03:19:54,530 [INFO] Logger initialized successfully.
+2025-01-21 03:19:54,530 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 03:19:54,530 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 03:26:38,030 [INFO] Logger initialized successfully.
+2025-01-21 03:26:38,030 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 03:26:38,030 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 03:26:38,436 [INFO] OKX client initialized successfully.
+2025-01-21 03:26:38,845 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-21 03:26:38,846 [INFO] Successfully retrieved 1 positions.
+2025-01-21 03:26:38,847 [INFO] [
+    {
+        "instrument": "LINK-USDT-SWAP",
+        "position": "5",
+        "side": "long",
+        "leverage": "50",
+        "average_price": "25.8250785251899805",
+        "market_price": "24.658",
+        "liquidation_price": "2.9897152652934817",
+        "margin_ratio": "28.921989042262364",
+        "close_orders": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-21 03:26:38,847 [INFO] None
+2025-01-21 03:26:39,090 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-21 03:26:39,092 [INFO] Successfully retrieved balances.
+2025-01-21 03:26:39,092 [INFO] [
+    {
+        "currency": "BTC",
+        "available_balance": "0.00000000628",
+        "usd_equivalent": "0.000638373304"
+    },
+    {
+        "currency": "ETH",
+        "available_balance": "0.0000002290573188",
+        "usd_equivalent": "0.0007426954504771"
+    },
+    {
+        "currency": "SOL",
+        "available_balance": "0.0000001051368927",
+        "usd_equivalent": "0.0000250562242683"
+    },
+    {
+        "currency": "FET",
+        "available_balance": "0.000748",
+        "usd_equivalent": "0.0008747112"
+    },
+    {
+        "currency": "USDT",
+        "available_balance": "97.80346370781787",
+        "usd_equivalent": "108.25383271009433"
+    }
+]
+2025-01-21 04:07:52,957 [INFO] Logger initialized successfully.
+2025-01-21 04:07:52,957 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 04:07:52,957 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 04:07:53,397 [INFO] OKX client initialized successfully.
+2025-01-21 04:07:53,867 [INFO] Binance client initialized successfully.
+2025-01-21 04:08:06,146 [INFO] Logger initialized successfully.
+2025-01-21 04:08:06,146 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 04:08:06,146 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 04:08:06,544 [INFO] OKX client initialized successfully.
+2025-01-21 04:08:06,957 [INFO] Binance client initialized successfully.
+2025-01-21 04:08:07,305 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-21 04:08:07,306 [INFO] Successfully retrieved balances.
+2025-01-21 04:08:07,306 [INFO] [
+    {
+        "currency": "BTC",
+        "available_balance": "0.00000000628",
+        "usd_equivalent": "0.00063898058"
+    },
+    {
+        "currency": "ETH",
+        "available_balance": "0.0000002290573188",
+        "usd_equivalent": "0.0007440171112066"
+    },
+    {
+        "currency": "SOL",
+        "available_balance": "0.0000001051368927",
+        "usd_equivalent": "0.0000250404537344"
+    },
+    {
+        "currency": "FET",
+        "available_balance": "0.000748",
+        "usd_equivalent": "0.0008794236"
+    },
+    {
+        "currency": "USDT",
+        "available_balance": "97.83286370781788",
+        "usd_equivalent": "108.26644953990107"
+    }
+]
+2025-01-21 04:08:13,515 [INFO] Logger initialized successfully.
+2025-01-21 04:08:13,515 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 04:08:13,515 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 04:08:13,817 [INFO] OKX client initialized successfully.
+2025-01-21 04:08:14,224 [INFO] Binance client initialized successfully.
+2025-01-21 04:08:15,215 [INFO] Successfully retrieved balances.
+2025-01-21 04:08:15,215 [INFO] [
+    {
+        "currency": "FDUSD",
+        "available_balance": "0.00000000",
+        "usd_equivalent": "0.00000000"
+    },
+    {
+        "currency": "BFUSD",
+        "available_balance": "0.00000000",
+        "usd_equivalent": "0.00000000"
+    },
+    {
+        "currency": "BNB",
+        "available_balance": "0.00000000",
+        "usd_equivalent": "0.00000000"
+    },
+    {
+        "currency": "ETH",
+        "available_balance": "0.00000000",
+        "usd_equivalent": "0.00000000"
+    },
+    {
+        "currency": "BTC",
+        "available_balance": "0.00000000",
+        "usd_equivalent": "0.00000000"
+    },
+    {
+        "currency": "USDT",
+        "available_balance": "0.00000000",
+        "usd_equivalent": "0.00000000"
+    },
+    {
+        "currency": "USDC",
+        "available_balance": "0.00000000",
+        "usd_equivalent": "0.00000000"
+    }
+]
+2025-01-21 04:09:01,132 [INFO] Logger initialized successfully.
+2025-01-21 04:09:01,132 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 04:09:01,132 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 04:09:01,566 [INFO] OKX client initialized successfully.
+2025-01-21 04:09:01,970 [INFO] Binance client initialized successfully.
+2025-01-21 04:09:02,928 [INFO] Successfully retrieved 0 positions.
+2025-01-21 04:09:02,928 [INFO] []
+2025-01-21 04:09:07,861 [INFO] Logger initialized successfully.
+2025-01-21 04:09:07,861 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 04:09:07,861 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 04:09:08,148 [INFO] OKX client initialized successfully.
+2025-01-21 04:09:08,557 [INFO] Binance client initialized successfully.
+2025-01-21 04:09:08,876 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-21 04:09:08,878 [INFO] Successfully retrieved 1 positions.
+2025-01-21 04:09:08,878 [INFO] [
+    {
+        "instrument": "LINK-USDT-SWAP",
+        "position": "5",
+        "side": "long",
+        "leverage": "50",
+        "average_price": "25.8250785251899805",
+        "market_price": "24.686",
+        "liquidation_price": "2.9897152652934817",
+        "margin_ratio": "28.888615647897982",
+        "close_orders": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-21 04:11:35,979 [INFO] Logger initialized successfully.
+2025-01-21 04:11:35,979 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 04:11:35,979 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 04:11:36,415 [INFO] OKX client initialized successfully.
+2025-01-21 04:11:36,887 [INFO] Binance client initialized successfully.
+2025-01-21 04:11:37,196 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-21 04:11:37,197 [INFO] Successfully retrieved 1 positions.
+2025-01-21 04:11:37,197 [INFO] [
+    {
+        "instrument": "LINK-USDT-SWAP",
+        "position": "5",
+        "side": "long",
+        "leverage": "50",
+        "average_price": "25.8250785251899805",
+        "market_price": "24.717",
+        "liquidation_price": "2.9897152652934817",
+        "margin_ratio": "28.907006624087128",
+        "close_orders": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-21 04:11:43,787 [INFO] Logger initialized successfully.
+2025-01-21 04:11:43,787 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 04:11:43,787 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 04:11:51,647 [ERROR] Exception on /positions [GET]
+Traceback (most recent call last):
+  File "/Users/ekinbasarkomur/projects/Portfolium/venv/lib/python3.13/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ekinbasarkomur/projects/Portfolium/venv/lib/python3.13/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ekinbasarkomur/projects/Portfolium/venv/lib/python3.13/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ekinbasarkomur/projects/Portfolium/venv/lib/python3.13/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ekinbasarkomur/projects/Portfolium/portfolium/web/flask.py", line 19, in positions
+    print(EXCHANGES[exchange].get_positions())
+          ~~~~~~~~~^^^^^^^^^^
+KeyError: 'okx'
+2025-01-21 04:11:55,295 [ERROR] Exception on /positions [GET]
+Traceback (most recent call last):
+  File "/Users/ekinbasarkomur/projects/Portfolium/venv/lib/python3.13/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ekinbasarkomur/projects/Portfolium/venv/lib/python3.13/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ekinbasarkomur/projects/Portfolium/venv/lib/python3.13/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ekinbasarkomur/projects/Portfolium/venv/lib/python3.13/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/ekinbasarkomur/projects/Portfolium/portfolium/web/flask.py", line 19, in positions
+    print(EXCHANGES[exchange].get_positions())
+          ~~~~~~~~~^^^^^^^^^^
+KeyError: 'OKX'
+2025-01-21 04:13:27,056 [INFO] Logger initialized successfully.
+2025-01-21 04:13:27,057 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 04:13:27,057 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 04:14:41,713 [INFO] Logger initialized successfully.
+2025-01-21 04:14:41,714 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-21 04:14:41,714 [INFO] Loaded API keys for Binance and OKX.
+2025-01-21 04:20:39,878 [INFO] Starting server...
+2025-01-21 04:20:47,867 [INFO] Starting server...
+2025-01-21 04:21:23,133 [INFO] OKX client initialized successfully.
+2025-01-21 04:21:23,618 [INFO] Binance client initialized successfully.
+2025-01-21 04:21:23,619 [INFO] Starting server...
+2025-01-21 04:22:13,676 [INFO] OKX client initialized successfully.
+2025-01-21 04:22:14,147 [INFO] Binance client initialized successfully.
+2025-01-21 04:22:14,147 [INFO] Starting server...
+2025-01-21 04:22:31,594 [INFO] OKX client initialized successfully.
+2025-01-21 04:22:32,005 [INFO] Binance client initialized successfully.
+2025-01-21 04:22:32,005 [INFO] Starting server...
+2025-01-21 04:22:38,241 [INFO] OKX client initialized successfully.
+2025-01-21 04:22:38,648 [INFO] Binance client initialized successfully.
+2025-01-21 04:25:35,778 [INFO] OKX client initialized successfully.
+2025-01-21 04:25:36,243 [INFO] Binance client initialized successfully.
+2025-01-21 04:26:06,611 [INFO] OKX client initialized successfully.
+2025-01-21 04:26:07,020 [INFO] Binance client initialized successfully.
+2025-01-21 04:30:22,405 [INFO] OKX client initialized successfully.
+2025-01-21 04:30:23,270 [INFO] Successfully retrieved 1 positions.
+2025-01-21 04:30:23,270 [INFO] [
+    {
+        "instrument": "LINK-USDT-SWAP",
+        "position": "5",
+        "side": "long",
+        "leverage": "50",
+        "average_price": "25.8250785251899805",
+        "market_price": "24.14",
+        "liquidation_price": "2.9897152652934817",
+        "margin_ratio": "28.7368093310173",
+        "close_orders": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-21 04:35:15,425 [INFO] OKX client initialized successfully.
+2025-01-21 04:35:16,193 [INFO] Successfully retrieved 1 positions.
+2025-01-21 04:35:16,194 [INFO] [
+    {
+        "instrument": "LINK-USDT-SWAP",
+        "position": "5",
+        "side": "long",
+        "leverage": "50",
+        "average_price": "25.8250785251899805",
+        "market_price": "24.172",
+        "liquidation_price": "2.9897152652934817",
+        "margin_ratio": "28.648876632630827",
+        "close_orders": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-21 04:35:53,109 [INFO] OKX client initialized successfully.
+2025-01-21 04:35:53,518 [INFO] Starting server...
+2025-01-21 04:36:18,352 [INFO] OKX client initialized successfully.
+2025-01-21 04:36:18,761 [INFO] Starting server...
+2025-01-21 04:37:04,472 [INFO] OKX client initialized successfully.
+2025-01-21 04:37:05,393 [INFO] Starting server...
+2025-01-21 04:37:23,975 [INFO] OKX client initialized successfully.
+2025-01-21 04:37:24,438 [INFO] Starting server...
+2025-01-21 04:37:24,438 [INFO] [<FileHandler /Users/ekinbasarkomur/projects/Portfolium/data/logs/app_20250121.log (NOTSET)>, <StreamHandler <stderr> (NOTSET)>]
+2025-01-21 04:38:50,844 [INFO] OKX client initialized successfully.
+2025-01-21 04:38:51,323 [INFO] Starting server...
+2025-01-21 04:38:51,323 [INFO] [<FileHandler /Users/ekinbasarkomur/projects/Portfolium/data/logs/app_20250121.log (INFO)>, <StreamHandler <stderr> (INFO)>]
+2025-01-21 04:39:01,360 [INFO] OKX client initialized successfully.
+2025-01-21 04:39:01,768 [INFO] Starting server...
+2025-01-21 04:39:01,768 [INFO] [<FileHandler /Users/ekinbasarkomur/projects/Portfolium/data/logs/app_20250121.log (INFO)>, <StreamHandler <stderr> (INFO)>]
+2025-01-21 04:39:32,397 [INFO] OKX client initialized successfully.
+2025-01-21 04:39:32,881 [INFO] Starting server...
+2025-01-21 04:39:32,882 [INFO] [<FileHandler /Users/ekinbasarkomur/projects/Portfolium/data/logs/app_20250121.log (INFO)>, <StreamHandler <stderr> (INFO)>]
+2025-01-21 04:40:06,450 [INFO] OKX client initialized successfully.
+2025-01-21 04:40:06,858 [INFO] Starting server...
+2025-01-21 04:40:06,874 [INFO] Starting gunicorn 23.0.0
+2025-01-21 04:40:06,875 [INFO] Listening at: http://0.0.0.0:8000 (72597)
+2025-01-21 04:40:06,875 [INFO] Using worker: sync
+2025-01-21 04:40:06,881 [INFO] Booting worker with pid: 72598
+2025-01-21 04:40:16,183 [INFO] Handling signal: int
+2025-01-21 04:40:16,286 [INFO] Worker exiting (pid: 72598)
+2025-01-21 04:40:16,393 [INFO] Shutting down: Master
+2025-01-21 04:40:26,208 [INFO] OKX client initialized successfully.
+2025-01-21 04:40:26,614 [INFO] Starting server...
+2025-01-21 04:40:36,004 [INFO] OKX client initialized successfully.
+2025-01-21 04:40:36,411 [INFO] Starting server...
+2025-01-21 04:41:15,254 [INFO] OKX client initialized successfully.
+2025-01-21 04:41:15,719 [INFO] Starting server...
+2025-01-21 04:43:54,343 [INFO] OKX client initialized successfully.
+2025-01-21 04:45:35,300 [INFO] OKX client initialized successfully.
+2025-01-21 04:45:35,765 [INFO] Binance client initialized successfully.
+2025-01-21 04:45:36,081 [INFO] Successfully retrieved 1 positions.
+2025-01-21 04:45:36,081 [INFO] [
+    {
+        "instrument": "LINK-USDT-SWAP",
+        "position": "5",
+        "side": "long",
+        "leverage": "50",
+        "average_price": "25.8250785251899805",
+        "market_price": "24.224",
+        "liquidation_price": "2.9897152652934817",
+        "margin_ratio": "28.695340089219542",
+        "close_orders": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-21 04:45:40,250 [INFO] OKX client initialized successfully.
+2025-01-21 04:45:40,658 [INFO] Binance client initialized successfully.
+2025-01-21 04:46:27,623 [INFO] OKX client initialized successfully.
+2025-01-21 04:46:28,087 [INFO] Binance client initialized successfully.
+2025-01-21 04:47:07,710 [INFO] OKX client initialized successfully.
+2025-01-21 04:47:08,131 [INFO] Binance client initialized successfully.
+2025-01-21 04:47:08,132 [INFO] PortfoliumApp initialized
+2025-01-21 04:47:15,383 [INFO] OKX client initialized successfully.
+2025-01-21 04:47:15,788 [INFO] Binance client initialized successfully.
+2025-01-21 04:47:15,789 [WARNING] PortfoliumApp initialized
+2025-01-21 04:47:49,026 [INFO] OKX client initialized successfully.
+2025-01-21 04:47:49,511 [INFO] Binance client initialized successfully.
+2025-01-21 04:48:32,629 [INFO] OKX client initialized successfully.
+2025-01-21 04:48:33,098 [INFO] Binance client initialized successfully.
+2025-01-21 04:49:05,434 [INFO] OKX client initialized successfully.
+2025-01-21 04:49:05,906 [INFO] Binance client initialized successfully.
+2025-01-21 04:50:21,084 [INFO] OKX client initialized successfully.
+2025-01-21 04:50:21,491 [INFO] Binance client initialized successfully.
+2025-01-21 04:50:35,180 [INFO] OKX client initialized successfully.
+2025-01-21 04:50:35,654 [INFO] Binance client initialized successfully.
+2025-01-21 04:51:25,967 [INFO] OKX client initialized successfully.
+2025-01-21 04:51:26,455 [INFO] Binance client initialized successfully.
+2025-01-21 04:51:49,394 [INFO] OKX client initialized successfully.
+2025-01-21 04:51:49,816 [INFO] Binance client initialized successfully.
+2025-01-21 04:52:47,286 [INFO] OKX client initialized successfully.
+2025-01-21 04:52:47,774 [INFO] Binance client initialized successfully.
+2025-01-21 04:52:53,728 [INFO] OKX client initialized successfully.
+2025-01-21 04:52:54,137 [INFO] Binance client initialized successfully.
+2025-01-21 04:54:08,815 [INFO] OKX client initialized successfully.
+2025-01-21 04:54:09,285 [INFO] Binance client initialized successfully.
+2025-01-21 04:54:09,285 [INFO] <Logger AppLogger (INFO)>
+2025-01-21 04:54:19,515 [INFO] OKX client initialized successfully.
+2025-01-21 04:54:19,927 [INFO] Binance client initialized successfully.
+2025-01-21 04:54:19,927 [INFO] [<FileHandler /Users/ekinbasarkomur/projects/Portfolium/data/logs/app_20250121.log (INFO)>, <StreamHandler <stderr> (INFO)>]
+2025-01-21 04:54:30,446 [INFO] OKX client initialized successfully.
+2025-01-21 04:54:30,867 [INFO] Binance client initialized successfully.
+2025-01-21 04:54:30,868 [INFO] PortfoliumApp initialized.
+2025-01-21 04:54:30,870 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 04:54:30,870 [WARNING] Gunicorn error logger has no handlers. Adding centralized logger handlers.
+2025-01-21 04:54:30,871 [INFO] Gunicorn logger has been integrated with the centralized logger.
+2025-01-21 04:54:30,885 [INFO] Starting gunicorn 23.0.0
+2025-01-21 04:54:30,886 [INFO] Listening at: http://0.0.0.0:8000 (88175)
+2025-01-21 04:54:30,886 [INFO] Using worker: sync
+2025-01-21 04:54:30,893 [INFO] Booting worker with pid: 88211
+2025-01-21 04:54:59,541 [INFO] Handling signal: int
+2025-01-21 04:54:59,644 [INFO] Worker exiting (pid: 88211)
+2025-01-21 04:54:59,745 [INFO] Shutting down: Master
+2025-01-21 04:55:00,775 [INFO] OKX client initialized successfully.
+2025-01-21 04:55:01,181 [INFO] Binance client initialized successfully.
+2025-01-21 04:55:01,182 [INFO] PortfoliumApp initialized.
+2025-01-21 04:55:01,184 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 04:55:01,184 [WARNING] Gunicorn error logger has no handlers. Adding centralized logger handlers.
+2025-01-21 04:55:01,184 [INFO] Gunicorn logger has been integrated with the centralized logger.
+2025-01-21 04:55:01,196 [INFO] Starting gunicorn 23.0.0
+2025-01-21 04:55:01,197 [INFO] Listening at: http://0.0.0.0:8000 (88753)
+2025-01-21 04:55:01,197 [INFO] Using worker: sync
+2025-01-21 04:55:01,203 [INFO] Booting worker with pid: 88762
+2025-01-21 04:55:11,260 [INFO] Handling signal: int
+2025-01-21 04:55:11,362 [INFO] Worker exiting (pid: 88762)
+2025-01-21 04:55:11,466 [INFO] Shutting down: Master
+2025-01-21 04:56:08,041 [INFO] OKX client initialized successfully.
+2025-01-21 04:56:08,510 [INFO] Binance client initialized successfully.
+2025-01-21 04:56:08,511 [INFO] PortfoliumApp initialized.
+2025-01-21 04:56:08,513 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 04:56:08,513 [WARNING] Gunicorn error logger has no handlers. Adding centralized logger handlers.
+2025-01-21 04:56:08,513 [INFO] Gunicorn logger has been integrated with the centralized logger.
+2025-01-21 04:56:08,526 [INFO] Starting gunicorn 23.0.0
+2025-01-21 04:56:08,527 [INFO] Listening at: http://0.0.0.0:8000 (89931)
+2025-01-21 04:56:08,527 [INFO] Using worker: sync
+2025-01-21 04:56:08,531 [INFO] Booting worker with pid: 89966
+2025-01-21 04:56:29,557 [INFO] Handling signal: int
+2025-01-21 04:56:29,661 [INFO] Worker exiting (pid: 89966)
+2025-01-21 04:56:29,761 [INFO] Shutting down: Master
+2025-01-21 04:56:30,904 [INFO] OKX client initialized successfully.
+2025-01-21 04:56:31,370 [INFO] Binance client initialized successfully.
+2025-01-21 04:56:31,371 [INFO] PortfoliumApp initialized.
+2025-01-21 04:56:31,371 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 04:56:31,371 [WARNING] Gunicorn error logger has no handlers. Adding centralized logger handlers.
+2025-01-21 04:56:31,371 [INFO] Gunicorn logger has been integrated with the centralized logger.
+2025-01-21 04:56:31,378 [INFO] Starting gunicorn 23.0.0
+2025-01-21 04:56:31,378 [INFO] Listening at: http://0.0.0.0:8000 (90344)
+2025-01-21 04:56:31,378 [INFO] Using worker: sync
+2025-01-21 04:56:31,381 [INFO] Booting worker with pid: 90379
+2025-01-21 04:56:32,337 [DEBUG] Exchange 'okx' is not supported or missing
+2025-01-21 04:56:33,373 [DEBUG] Exchange 'okx' is not supported or missing
+2025-01-21 04:56:33,952 [DEBUG] Exchange 'okx' is not supported or missing
+2025-01-21 04:57:35,739 [INFO] Handling signal: int
+2025-01-21 04:57:35,842 [INFO] Worker exiting (pid: 90379)
+2025-01-21 04:57:35,945 [INFO] Shutting down: Master
+2025-01-21 04:57:37,023 [INFO] OKX client initialized successfully.
+2025-01-21 04:57:37,441 [INFO] Binance client initialized successfully.
+2025-01-21 04:57:37,442 [INFO] PortfoliumApp initialized.
+2025-01-21 04:57:37,444 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 04:57:37,444 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 04:57:37,457 [INFO] Starting gunicorn 23.0.0
+2025-01-21 04:57:37,457 [INFO] Listening at: http://0.0.0.0:8000 (91549)
+2025-01-21 04:57:37,457 [INFO] Using worker: sync
+2025-01-21 04:57:37,462 [INFO] Booting worker with pid: 91551
+2025-01-21 04:57:42,460 [DEBUG] Exchange 'okx' is not supported or missing
+2025-01-21 04:57:43,886 [DEBUG] Exchange 'okx' is not supported or missing
+2025-01-21 04:57:50,055 [DEBUG] Exchange 'okx' is not supported or missing
+2025-01-21 04:57:50,940 [DEBUG] Exchange 'okx' is not supported or missing
+2025-01-21 04:57:53,199 [DEBUG] Exchange 'okx' is not supported or missing
+2025-01-21 04:57:54,018 [DEBUG] Exchange 'okx' is not supported or missing
+2025-01-21 04:57:55,269 [DEBUG] Exchange 'okx' is not supported or missing
+2025-01-21 04:58:12,172 [INFO] Handling signal: int
+2025-01-21 04:58:12,275 [INFO] Worker exiting (pid: 91551)
+2025-01-21 04:58:12,376 [INFO] Shutting down: Master
+2025-01-21 04:58:21,893 [INFO] OKX client initialized successfully.
+2025-01-21 04:58:22,361 [INFO] Binance client initialized successfully.
+2025-01-21 04:58:22,362 [INFO] PortfoliumApp initialized.
+2025-01-21 04:58:22,364 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 04:58:22,364 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 04:58:22,378 [INFO] Starting gunicorn 23.0.0
+2025-01-21 04:58:22,379 [INFO] Listening at: http://0.0.0.0:8000 (92430)
+2025-01-21 04:58:22,379 [INFO] Using worker: sync
+2025-01-21 04:58:22,387 [INFO] Booting worker with pid: 92431
+2025-01-21 04:58:27,376 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 04:58:29,151 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 04:58:29,826 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 04:58:30,369 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 04:58:30,867 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 04:58:31,360 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:00:29,096 [INFO] Handling signal: int
+2025-01-21 05:00:29,199 [INFO] Worker exiting (pid: 92431)
+2025-01-21 05:00:29,407 [INFO] Shutting down: Master
+2025-01-21 05:00:30,333 [INFO] OKX client initialized successfully.
+2025-01-21 05:00:30,809 [INFO] Binance client initialized successfully.
+2025-01-21 05:00:30,815 [INFO] PortfoliumApp initialized.
+2025-01-21 05:00:30,817 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 05:00:30,817 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:00:30,818 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 05:00:30,830 [INFO] Starting gunicorn 23.0.0
+2025-01-21 05:00:30,830 [INFO] Listening at: http://0.0.0.0:8000 (94710)
+2025-01-21 05:00:30,830 [INFO] Using worker: sync
+2025-01-21 05:00:30,835 [INFO] Booting worker with pid: 94745
+2025-01-21 05:00:34,414 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:00:34,414 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:00:35,157 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:00:35,157 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:00:35,683 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:00:35,683 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:00:38,657 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:00:38,657 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:02:43,579 [INFO] Handling signal: int
+2025-01-21 05:02:43,682 [INFO] Worker exiting (pid: 94745)
+2025-01-21 05:02:43,891 [INFO] Shutting down: Master
+2025-01-21 05:02:44,831 [INFO] OKX client initialized successfully.
+2025-01-21 05:02:45,298 [INFO] Binance client initialized successfully.
+2025-01-21 05:02:45,299 [INFO] PortfoliumApp initialized.
+2025-01-21 05:04:41,967 [INFO] OKX client initialized successfully.
+2025-01-21 05:04:42,457 [INFO] Binance client initialized successfully.
+2025-01-21 05:04:42,458 [INFO] PortfoliumApp initialized.
+2025-01-21 05:04:42,460 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 05:04:42,460 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 05:07:48,297 [INFO] OKX client initialized successfully.
+2025-01-21 05:07:48,768 [INFO] Binance client initialized successfully.
+2025-01-21 05:07:48,769 [INFO] PortfoliumApp initialized.
+2025-01-21 05:08:19,014 [INFO] OKX client initialized successfully.
+2025-01-21 05:08:19,421 [INFO] Binance client initialized successfully.
+2025-01-21 05:08:19,422 [INFO] PortfoliumApp initialized.
+2025-01-21 05:08:37,543 [INFO] OKX client initialized successfully.
+2025-01-21 05:08:37,951 [INFO] Binance client initialized successfully.
+2025-01-21 05:08:37,952 [INFO] PortfoliumApp initialized.
+2025-01-21 05:08:37,954 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 05:08:37,955 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 05:08:37,968 [INFO] Starting gunicorn 23.0.0
+2025-01-21 05:08:37,969 [INFO] Listening at: http://0.0.0.0:8000 (3716)
+2025-01-21 05:08:37,969 [INFO] Using worker: sync
+2025-01-21 05:08:37,975 [INFO] Booting worker with pid: 3717
+2025-01-21 05:08:40,463 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:08:42,120 [INFO] Handling signal: int
+2025-01-21 05:08:42,222 [INFO] Worker exiting (pid: 3717)
+2025-01-21 05:08:42,327 [INFO] Shutting down: Master
+2025-01-21 05:09:26,856 [INFO] OKX client initialized successfully.
+2025-01-21 05:09:27,338 [INFO] Binance client initialized successfully.
+2025-01-21 05:09:27,339 [INFO] PortfoliumApp initialized.
+2025-01-21 05:09:27,341 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 05:09:27,341 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:09:27,341 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 05:09:27,353 [INFO] Starting gunicorn 23.0.0
+2025-01-21 05:09:27,353 [INFO] Listening at: http://0.0.0.0:8000 (4612)
+2025-01-21 05:09:27,354 [INFO] Using worker: sync
+2025-01-21 05:09:27,362 [INFO] Booting worker with pid: 4619
+2025-01-21 05:09:47,969 [INFO] Handling signal: int
+2025-01-21 05:09:48,071 [INFO] Worker exiting (pid: 4619)
+2025-01-21 05:09:48,171 [INFO] Shutting down: Master
+2025-01-21 05:09:49,076 [INFO] OKX client initialized successfully.
+2025-01-21 05:09:49,480 [INFO] Binance client initialized successfully.
+2025-01-21 05:09:49,481 [INFO] PortfoliumApp initialized.
+2025-01-21 05:09:49,482 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 05:09:49,482 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:09:49,482 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:09:49,482 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 05:09:49,494 [INFO] Starting gunicorn 23.0.0
+2025-01-21 05:09:49,494 [INFO] Listening at: http://0.0.0.0:8000 (5019)
+2025-01-21 05:09:49,494 [INFO] Using worker: sync
+2025-01-21 05:09:49,499 [INFO] Booting worker with pid: 5020
+2025-01-21 05:09:53,932 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:09:54,816 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:09:55,335 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:09:55,680 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:09:56,068 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:10:36,645 [INFO] Handling signal: int
+2025-01-21 05:10:36,748 [INFO] Worker exiting (pid: 5020)
+2025-01-21 05:10:36,856 [INFO] Shutting down: Master
+2025-01-21 05:10:37,808 [INFO] OKX client initialized successfully.
+2025-01-21 05:10:38,270 [INFO] Binance client initialized successfully.
+2025-01-21 05:10:38,271 [INFO] PortfoliumApp initialized.
+2025-01-21 05:10:38,271 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:10:38,271 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:10:38,273 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 05:10:38,273 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:10:38,273 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:10:38,273 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 05:10:38,286 [INFO] Starting gunicorn 23.0.0
+2025-01-21 05:10:38,287 [INFO] Listening at: http://0.0.0.0:8000 (5927)
+2025-01-21 05:10:38,287 [INFO] Using worker: sync
+2025-01-21 05:10:38,294 [INFO] Booting worker with pid: 5928
+2025-01-21 05:10:49,097 [INFO] Handling signal: int
+2025-01-21 05:10:49,201 [INFO] Worker exiting (pid: 5928)
+2025-01-21 05:10:49,309 [INFO] Shutting down: Master
+2025-01-21 05:10:50,206 [INFO] OKX client initialized successfully.
+2025-01-21 05:10:50,611 [INFO] Binance client initialized successfully.
+2025-01-21 05:10:50,611 [INFO] PortfoliumApp initialized.
+2025-01-21 05:10:50,612 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 05:10:50,612 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:10:50,612 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:10:50,612 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 05:10:50,619 [INFO] Starting gunicorn 23.0.0
+2025-01-21 05:10:50,619 [INFO] Listening at: http://0.0.0.0:8000 (6154)
+2025-01-21 05:10:50,619 [INFO] Using worker: sync
+2025-01-21 05:10:50,622 [INFO] Booting worker with pid: 6155
+2025-01-21 05:11:03,399 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:11:50,494 [INFO] Handling signal: int
+2025-01-21 05:11:50,601 [INFO] Worker exiting (pid: 6155)
+2025-01-21 05:11:50,703 [INFO] Shutting down: Master
+2025-01-21 05:11:52,605 [INFO] OKX client initialized successfully.
+2025-01-21 05:11:53,015 [INFO] Binance client initialized successfully.
+2025-01-21 05:11:53,016 [INFO] PortfoliumApp initialized.
+2025-01-21 05:11:53,017 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 05:11:53,017 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:11:53,017 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:11:53,018 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 05:11:53,028 [INFO] Starting gunicorn 23.0.0
+2025-01-21 05:11:53,029 [INFO] Listening at: http://0.0.0.0:8000 (7284)
+2025-01-21 05:11:53,029 [INFO] Using worker: sync
+2025-01-21 05:11:53,036 [INFO] Booting worker with pid: 7285
+2025-01-21 05:11:54,738 [INFO] Exchange 'okx' is not supported or missing
+2025-01-21 05:12:11,299 [INFO] Handling signal: int
+2025-01-21 05:12:11,402 [INFO] Worker exiting (pid: 7285)
+2025-01-21 05:12:11,506 [INFO] Shutting down: Master
+2025-01-21 05:12:12,466 [INFO] OKX client initialized successfully.
+2025-01-21 05:12:12,935 [INFO] Binance client initialized successfully.
+2025-01-21 05:12:12,936 [INFO] PortfoliumApp initialized.
+2025-01-21 05:12:12,938 [WARNING] Logger reinitialized in load_config due to missing handlers.
+2025-01-21 05:12:12,938 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:12:12,938 [INFO] Removing Gunicorn's default StreamHandler.
+2025-01-21 05:12:12,938 [INFO] Gunicorn loggers have been integrated with the centralized logger.
+2025-01-21 05:12:12,947 [INFO] Starting gunicorn 23.0.0
+2025-01-21 05:12:12,947 [INFO] Listening at: http://0.0.0.0:8000 (7676)
+2025-01-21 05:12:12,947 [INFO] Using worker: sync
+2025-01-21 05:12:12,950 [INFO] Booting worker with pid: 7677
+2025-01-21 05:12:14,164 [INFO] Successfully retrieved 1 positions.
+2025-01-21 05:12:14,165 [INFO] Positions fetched from okx: [{'instrument': 'LINK-USDT-SWAP', 'position': '5', 'side': 'long', 'leverage': '50', 'average_price': '25.8250785251899805', 'market_price': '24.563', 'liquidation_price': '2.9897152652934817', 'margin_ratio': '28.96708771932474', 'close_orders': [{'algoId': '2176323993220169728', 'closeFraction': '1.0', 'ordType': '', 'slTriggerPx': '23.4', 'slTriggerPxType': 'last', 'tpTriggerPx': '0', 'tpTriggerPxType': 'last'}]}]
+2025-01-21 05:12:20,822 [INFO] Successfully retrieved 0 positions.
+2025-01-21 05:12:20,823 [INFO] Positions fetched from binance: []
+2025-01-21 05:12:27,060 [INFO] Handling signal: int
+2025-01-21 05:12:27,162 [INFO] Worker exiting (pid: 7677)
+2025-01-21 05:12:27,264 [INFO] Shutting down: Master

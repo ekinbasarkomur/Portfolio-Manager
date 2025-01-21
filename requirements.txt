@@ -8,3 +8,5 @@ flask==3.0.3
 gunicorn==23.0.0
 python-dotenv==1.0.1
 python-binance==1.0.27
+requests==2.31.0
+python-okx==0.3.5

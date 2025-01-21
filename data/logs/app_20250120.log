@@ -1,0 +1,2449 @@
+2025-01-20 18:10:24,026 [INFO] Logger initialized successfully.
+2025-01-20 18:10:24,026 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:10:24,026 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:10:31,336 [INFO] Logger initialized successfully.
+2025-01-20 18:10:31,336 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:10:31,336 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:10:31,681 [INFO] OKX client initialized successfully.
+2025-01-20 18:10:32,126 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:10:32,127 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:10:32,127 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "107640.8",
+        "liqPx": "119796.2600242836",
+        "mgnRatio": "9.504708345874583",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "121.34",
+        "liqPx": "91.53094975277146",
+        "mgnRatio": "9.504708345874583",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.777",
+        "liqPx": "2.3177533546036457",
+        "mgnRatio": "9.504708345874583",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.09",
+        "liqPx": "20.91263864127083",
+        "mgnRatio": "9.504708345874583",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:10:32,127 [INFO] None
+2025-01-20 18:10:32,432 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:10:32,433 [INFO] Successfully retrieved balances.
+2025-01-20 18:10:32,433 [INFO] [
+    {}
+]
+2025-01-20 18:10:49,737 [INFO] Logger initialized successfully.
+2025-01-20 18:10:49,737 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:10:49,737 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:10:50,091 [INFO] OKX client initialized successfully.
+2025-01-20 18:10:50,540 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:10:50,542 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:10:50,542 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "107701.1",
+        "liqPx": "119700.24695808151",
+        "mgnRatio": "9.397731663535245",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "121.21",
+        "liqPx": "91.78427905790744",
+        "mgnRatio": "9.397731663535245",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.774",
+        "liqPx": "2.3463780222773636",
+        "mgnRatio": "9.397731663535245",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.078",
+        "liqPx": "20.967216889004977",
+        "mgnRatio": "9.397731663535245",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:10:50,543 [INFO] None
+2025-01-20 18:10:50,845 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:10:50,846 [INFO] Successfully retrieved balances.
+2025-01-20 18:10:50,846 [INFO] [
+    {}
+]
+2025-01-20 18:11:05,948 [INFO] Logger initialized successfully.
+2025-01-20 18:11:05,948 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:11:05,948 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:11:06,335 [INFO] OKX client initialized successfully.
+2025-01-20 18:11:06,783 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:11:06,784 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:11:06,785 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "107613",
+        "liqPx": "119487.95551955489",
+        "mgnRatio": "9.321829472048409",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "121.05",
+        "liqPx": "91.9288359256788",
+        "mgnRatio": "9.321829472048409",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.768",
+        "liqPx": "2.3655039638685005",
+        "mgnRatio": "9.321829472048409",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.028",
+        "liqPx": "20.97011360814421",
+        "mgnRatio": "9.321829472048409",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:11:06,785 [INFO] None
+2025-01-20 18:11:07,103 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:11:07,104 [INFO] Successfully retrieved balances.
+2025-01-20 18:11:07,104 [INFO] [
+    {
+        "adjEq": "",
+        "borrowFroz": "",
+        "details": [
+            {
+                "accAvgPx": "",
+                "availBal": "0.00000000628",
+                "availEq": "0.00000000628",
+                "borrowFroz": "",
+                "cashBal": "0.00000000628",
+                "ccy": "BTC",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.00066131674392",
+                "eq": "0.00000000628",
+                "eqUsd": "0.000674813004",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1729548617001",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "0.0000002290573188",
+                "availEq": "0.0000002290573188",
+                "borrowFroz": "",
+                "cashBal": "0.0000002290573188",
+                "ccy": "ETH",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.0007530300127753",
+                "eq": "0.0000002290573188",
+                "eqUsd": "0.0007683979722197",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737361383748",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "0.0000001051368927",
+                "availEq": "0.0000001051368927",
+                "borrowFroz": "",
+                "cashBal": "0.0000001051368927",
+                "ccy": "SOL",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.0000256092443239",
+                "eq": "0.0000001051368927",
+                "eqUsd": "0.0000269570992883",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737360743656",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "-3279.7514103163276",
+                "availBal": "0.000748",
+                "availEq": "0.000748",
+                "borrowFroz": "",
+                "cashBal": "0.000748",
+                "ccy": "FET",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0",
+                "eq": "0.000748",
+                "eqUsd": "0.0009113632",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "1.2726053852189003",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "0.000748",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "-0.0000405456281437",
+                "spotUplRatio": "-0.0425940247059198",
+                "stgyEq": "0",
+                "totalPnl": "2.454165418116588",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1731862911738",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "76.46174555514315",
+                "availEq": "76.46174555514315",
+                "borrowFroz": "",
+                "cashBal": "105.84092153375278",
+                "ccy": "USDT",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "106.63264774138142",
+                "eq": "106.76182955514315",
+                "eqUsd": "106.63264774138142",
+                "fixedBal": "0",
+                "frozenBal": "30.300084",
+                "imr": "30.300084",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "9.311237642273086",
+                "mmr": "10.493189099999999",
+                "notionalLever": "18.22229356790074",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737379526196",
+                "upl": "0.9209080213903795",
+                "uplLiab": ""
+            }
+        ],
+        "imr": "",
+        "isoEq": "0",
+        "mgnRatio": "",
+        "mmr": "",
+        "notionalUsd": "",
+        "ordFroz": "",
+        "totalEq": "106.63502927265692",
+        "uTime": "1737385866984",
+        "upl": ""
+    }
+]
+2025-01-20 18:11:10,847 [INFO] Logger initialized successfully.
+2025-01-20 18:11:10,847 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:11:10,847 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:11:11,086 [INFO] OKX client initialized successfully.
+2025-01-20 18:11:11,455 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:11:11,456 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:11:11,456 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "107589",
+        "liqPx": "119350.05258277041",
+        "mgnRatio": "9.248248256686132",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "120.88",
+        "liqPx": "92.03816211811676",
+        "mgnRatio": "9.248248256686132",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.766",
+        "liqPx": "2.3865483747446326",
+        "mgnRatio": "9.248248256686132",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.003",
+        "liqPx": "20.993628157357122",
+        "mgnRatio": "9.248248256686132",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:11:11,456 [INFO] None
+2025-01-20 18:11:11,849 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:11:11,849 [INFO] Successfully retrieved balances.
+2025-01-20 18:11:11,850 [INFO] [
+    {
+        "adjEq": "",
+        "borrowFroz": "",
+        "details": [
+            {
+                "accAvgPx": "",
+                "availBal": "0.00000000628",
+                "availEq": "0.00000000628",
+                "borrowFroz": "",
+                "cashBal": "0.00000000628",
+                "ccy": "BTC",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.0006613395152",
+                "eq": "0.00000000628",
+                "eqUsd": "0.00067483624",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1729548617001",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "0.0000002290573188",
+                "availEq": "0.0000002290573188",
+                "borrowFroz": "",
+                "cashBal": "0.0000002290573188",
+                "ccy": "ETH",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.0007528302289818",
+                "eq": "0.0000002290573188",
+                "eqUsd": "0.0007681941112059",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737361383748",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "0.0000001051368927",
+                "availEq": "0.0000001051368927",
+                "borrowFroz": "",
+                "cashBal": "0.0000001051368927",
+                "ccy": "SOL",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.0000256082455234",
+                "eq": "0.0000001051368927",
+                "eqUsd": "0.0000269560479194",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737360743656",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "-3279.7514103163276",
+                "availBal": "0.000748",
+                "availEq": "0.000748",
+                "borrowFroz": "",
+                "cashBal": "0.000748",
+                "ccy": "FET",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0",
+                "eq": "0.000748",
+                "eqUsd": "0.0009111388",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "1.2726053852189003",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "0.000748",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "-0.0000407700281437",
+                "spotUplRatio": "-0.0428297615678602",
+                "stgyEq": "0",
+                "totalPnl": "2.4541651937166193",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1731862911738",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "75.64726955514321",
+                "availEq": "75.64726955514321",
+                "borrowFroz": "",
+                "cashBal": "105.84092153375278",
+                "ccy": "USDT",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "105.79905760738149",
+                "eq": "105.92722955514321",
+                "eqUsd": "105.79905760738149",
+                "fixedBal": "0",
+                "frozenBal": "30.279960000000003",
+                "imr": "30.279960000000003",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "9.24421883523664",
+                "mmr": "10.486563",
+                "notionalLever": "18.355827941179193",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737379526196",
+                "upl": "0.0863080213904386",
+                "uplLiab": ""
+            }
+        ],
+        "imr": "",
+        "isoEq": "0",
+        "mgnRatio": "",
+        "mmr": "",
+        "notionalUsd": "",
+        "ordFroz": "",
+        "totalEq": "105.8014387325806",
+        "uTime": "1737385871796",
+        "upl": ""
+    }
+]
+2025-01-20 18:12:21,321 [INFO] Logger initialized successfully.
+2025-01-20 18:12:21,321 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:12:21,321 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:12:21,698 [INFO] OKX client initialized successfully.
+2025-01-20 18:12:22,023 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:12:22,024 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:12:22,024 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "107582.1",
+        "liqPx": "119502.28951656833",
+        "mgnRatio": "9.353747767063457",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "121.05",
+        "liqPx": "91.8179077923821",
+        "mgnRatio": "9.353747767063457",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.769",
+        "liqPx": "2.357352392871522",
+        "mgnRatio": "9.353747767063457",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.032",
+        "liqPx": "20.954847142887413",
+        "mgnRatio": "9.353747767063457",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:12:22,024 [INFO] None
+2025-01-20 18:12:22,300 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:12:22,301 [INFO] An error occurred while fetching balance: list index out of range
+2025-01-20 18:12:22,301 [INFO] []
+2025-01-20 18:12:27,426 [INFO] Logger initialized successfully.
+2025-01-20 18:12:27,426 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:12:27,426 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:12:27,672 [INFO] OKX client initialized successfully.
+2025-01-20 18:12:28,139 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:12:28,140 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:12:28,140 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "107584.6",
+        "liqPx": "119527.37401134185",
+        "mgnRatio": "9.368472401269317",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "121.07",
+        "liqPx": "91.78252343521527",
+        "mgnRatio": "9.368472401269317",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.771",
+        "liqPx": "2.3547831834052584",
+        "mgnRatio": "9.368472401269317",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.035",
+        "liqPx": "20.94822775453739",
+        "mgnRatio": "9.368472401269317",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:12:28,140 [INFO] None
+2025-01-20 18:12:28,441 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:12:28,443 [INFO] An error occurred while fetching balance: list index out of range
+2025-01-20 18:12:28,443 [INFO] []
+2025-01-20 18:13:02,629 [INFO] Logger initialized successfully.
+2025-01-20 18:13:02,629 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:13:02,630 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:13:03,001 [INFO] OKX client initialized successfully.
+2025-01-20 18:13:03,464 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:13:03,465 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:13:03,465 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "107658.2",
+        "liqPx": "119838.14989486599",
+        "mgnRatio": "9.519618107766721",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "121.31",
+        "liqPx": "91.44089280870848",
+        "mgnRatio": "9.519618107766721",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.787",
+        "liqPx": "2.322798656718449",
+        "mgnRatio": "9.519618107766721",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.092",
+        "liqPx": "20.90420769835463",
+        "mgnRatio": "9.519618107766721",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:13:03,466 [INFO] None
+2025-01-20 18:13:03,778 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:13:03,779 [INFO] Successfully retrieved balances.
+2025-01-20 18:13:03,779 [INFO] [
+    {}
+]
+2025-01-20 18:13:16,055 [INFO] Logger initialized successfully.
+2025-01-20 18:13:16,056 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:13:16,056 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:13:16,415 [INFO] OKX client initialized successfully.
+2025-01-20 18:13:16,867 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:13:16,868 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:13:16,868 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "107670",
+        "liqPx": "119907.84277689685",
+        "mgnRatio": "9.556856027089987",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "121.36",
+        "liqPx": "91.34892106712346",
+        "mgnRatio": "9.556856027089987",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.787",
+        "liqPx": "2.311085988037684",
+        "mgnRatio": "9.556856027089987",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.113",
+        "liqPx": "20.90054944850039",
+        "mgnRatio": "9.556856027089987",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:13:16,869 [INFO] None
+2025-01-20 18:13:17,212 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:13:17,213 [INFO] Successfully retrieved balances.
+2025-01-20 18:13:17,214 [INFO] [
+    {
+        "adjEq": "",
+        "borrowFroz": "",
+        "details": [
+            {
+                "accAvgPx": "",
+                "availBal": "0.00000000628",
+                "availEq": "0.00000000628",
+                "borrowFroz": "",
+                "cashBal": "0.00000000628",
+                "ccy": "BTC",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.0006616256948",
+                "eq": "0.00000000628",
+                "eqUsd": "0.00067512826",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1729548617001",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "0.0000002290573188",
+                "availEq": "0.0000002290573188",
+                "borrowFroz": "",
+                "cashBal": "0.0000002290573188",
+                "ccy": "ETH",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.0007532477546625",
+                "eq": "0.0000002290573188",
+                "eqUsd": "0.0007686201578189",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737361383748",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "0.0000001051368927",
+                "availEq": "0.0000001051368927",
+                "borrowFroz": "",
+                "cashBal": "0.0000001051368927",
+                "ccy": "SOL",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.0000256481975426",
+                "eq": "0.0000001051368927",
+                "eqUsd": "0.0000269981026764",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737360743656",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "-3279.7514103163276",
+                "availBal": "0.000748",
+                "availEq": "0.000748",
+                "borrowFroz": "",
+                "cashBal": "0.000748",
+                "ccy": "FET",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0",
+                "eq": "0.000748",
+                "eqUsd": "0.0009135324",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "1.2726053852189003",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "0.000748",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "-0.0000383764281437",
+                "spotUplRatio": "-0.0403152350404955",
+                "stgyEq": "0",
+                "totalPnl": "2.45416758731659",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1731862911738",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "79.50322555514315",
+                "availEq": "79.50322555514315",
+                "borrowFroz": "",
+                "cashBal": "105.84092153375278",
+                "ccy": "USDT",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "109.74247976819922",
+                "eq": "109.87982955514315",
+                "eqUsd": "109.74247976819922",
+                "fixedBal": "0",
+                "frozenBal": "30.376604",
+                "imr": "30.376604",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "9.560449354619347",
+                "mmr": "10.518412099999999",
+                "notionalLever": "17.742177139268684",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737379526196",
+                "upl": "4.03890802139037",
+                "uplLiab": ""
+            }
+        ],
+        "imr": "",
+        "isoEq": "0",
+        "mgnRatio": "",
+        "mmr": "",
+        "notionalUsd": "",
+        "ordFroz": "",
+        "totalEq": "109.74486404711972",
+        "uTime": "1737385997091",
+        "upl": ""
+    }
+]
+2025-01-20 18:18:52,814 [INFO] Logger initialized successfully.
+2025-01-20 18:18:52,814 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:18:52,814 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:18:53,202 [INFO] OKX client initialized successfully.
+2025-01-20 18:18:53,655 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:18:53,656 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:18:53,656 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "106568.8",
+        "liqPx": "119790.82299093368",
+        "mgnRatio": "10.282379627618582",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "121.08",
+        "liqPx": "88.65539846954647",
+        "mgnRatio": "10.282379627618582",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.804",
+        "liqPx": "2.128970373737584",
+        "mgnRatio": "10.282379627618582",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.076",
+        "liqPx": "20.44435868155281",
+        "mgnRatio": "10.282379627618582",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:18:53,656 [INFO] None
+2025-01-20 18:18:53,996 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:18:53,997 [INFO] Successfully retrieved balances.
+2025-01-20 18:18:53,998 [INFO] {
+    "adjEq": "",
+    "borrowFroz": "",
+    "details": [
+        {
+            "accAvgPx": "",
+            "availBal": "0.00000000628",
+            "availEq": "0.00000000628",
+            "borrowFroz": "",
+            "cashBal": "0.00000000628",
+            "ccy": "BTC",
+            "clSpotInUseAmt": "",
+            "crossLiab": "",
+            "disEq": "0.00065499802144",
+            "eq": "0.00000000628",
+            "eqUsd": "0.000668365328",
+            "fixedBal": "0",
+            "frozenBal": "0",
+            "imr": "0",
+            "interest": "",
+            "isoEq": "0",
+            "isoLiab": "",
+            "isoUpl": "0",
+            "liab": "",
+            "maxLoan": "",
+            "maxSpotInUse": "",
+            "mgnRatio": "",
+            "mmr": "0",
+            "notionalLever": "0",
+            "openAvgPx": "",
+            "ordFrozen": "0",
+            "rewardBal": "0",
+            "smtSyncEq": "0",
+            "spotBal": "",
+            "spotCopyTradingEq": "0",
+            "spotInUseAmt": "",
+            "spotIsoBal": "0",
+            "spotUpl": "",
+            "spotUplRatio": "",
+            "stgyEq": "0",
+            "totalPnl": "",
+            "totalPnlRatio": "",
+            "twap": "0",
+            "uTime": "1729548617001",
+            "upl": "0",
+            "uplLiab": ""
+        },
+        {
+            "accAvgPx": "",
+            "availBal": "0.0000002290573188",
+            "availEq": "0.0000002290573188",
+            "borrowFroz": "",
+            "cashBal": "0.0000002290573188",
+            "ccy": "ETH",
+            "clSpotInUseAmt": "",
+            "crossLiab": "",
+            "disEq": "0.0007515462252756",
+            "eq": "0.0000002290573188",
+            "eqUsd": "0.0007668839033424",
+            "fixedBal": "0",
+            "frozenBal": "0",
+            "imr": "0",
+            "interest": "",
+            "isoEq": "0",
+            "isoLiab": "",
+            "isoUpl": "0",
+            "liab": "",
+            "maxLoan": "",
+            "maxSpotInUse": "",
+            "mgnRatio": "",
+            "mmr": "0",
+            "notionalLever": "0",
+            "openAvgPx": "",
+            "ordFrozen": "0",
+            "rewardBal": "0",
+            "smtSyncEq": "0",
+            "spotBal": "",
+            "spotCopyTradingEq": "0",
+            "spotInUseAmt": "",
+            "spotIsoBal": "0",
+            "spotUpl": "",
+            "spotUplRatio": "",
+            "stgyEq": "0",
+            "totalPnl": "",
+            "totalPnlRatio": "",
+            "twap": "0",
+            "uTime": "1737361383748",
+            "upl": "0",
+            "uplLiab": ""
+        },
+        {
+            "accAvgPx": "",
+            "availBal": "0.0000001051368927",
+            "availEq": "0.0000001051368927",
+            "borrowFroz": "",
+            "cashBal": "0.0000001051368927",
+            "ccy": "SOL",
+            "clSpotInUseAmt": "",
+            "crossLiab": "",
+            "disEq": "0.0000253335753912",
+            "eq": "0.0000001051368927",
+            "eqUsd": "0.0000266669214644",
+            "fixedBal": "0",
+            "frozenBal": "0",
+            "imr": "0",
+            "interest": "",
+            "isoEq": "0",
+            "isoLiab": "",
+            "isoUpl": "0",
+            "liab": "",
+            "maxLoan": "",
+            "maxSpotInUse": "",
+            "mgnRatio": "",
+            "mmr": "0",
+            "notionalLever": "0",
+            "openAvgPx": "",
+            "ordFrozen": "0",
+            "rewardBal": "0",
+            "smtSyncEq": "0",
+            "spotBal": "",
+            "spotCopyTradingEq": "0",
+            "spotInUseAmt": "",
+            "spotIsoBal": "0",
+            "spotUpl": "",
+            "spotUplRatio": "",
+            "stgyEq": "0",
+            "totalPnl": "",
+            "totalPnlRatio": "",
+            "twap": "0",
+            "uTime": "1737360743656",
+            "upl": "0",
+            "uplLiab": ""
+        },
+        {
+            "accAvgPx": "-3279.7514103163276",
+            "availBal": "0.000748",
+            "availEq": "0.000748",
+            "borrowFroz": "",
+            "cashBal": "0.000748",
+            "ccy": "FET",
+            "clSpotInUseAmt": "",
+            "crossLiab": "",
+            "disEq": "0",
+            "eq": "0.000748",
+            "eqUsd": "0.0009145796",
+            "fixedBal": "0",
+            "frozenBal": "0",
+            "imr": "0",
+            "interest": "",
+            "isoEq": "0",
+            "isoLiab": "",
+            "isoUpl": "0",
+            "liab": "",
+            "maxLoan": "",
+            "maxSpotInUse": "",
+            "mgnRatio": "",
+            "mmr": "0",
+            "notionalLever": "0",
+            "openAvgPx": "1.2726053852189003",
+            "ordFrozen": "0",
+            "rewardBal": "0",
+            "smtSyncEq": "0",
+            "spotBal": "0.000748",
+            "spotCopyTradingEq": "0",
+            "spotInUseAmt": "",
+            "spotIsoBal": "0",
+            "spotUpl": "-0.0000373292281437",
+            "spotUplRatio": "-0.0392151296847736",
+            "stgyEq": "0",
+            "totalPnl": "2.454168634516634",
+            "totalPnlRatio": "",
+            "twap": "0",
+            "uTime": "1731862911738",
+            "upl": "0",
+            "uplLiab": ""
+        },
+        {
+            "accAvgPx": "",
+            "availBal": "87.52936955514323",
+            "availEq": "87.52936955514323",
+            "borrowFroz": "",
+            "cashBal": "105.84092153375278",
+            "ccy": "USDT",
+            "clSpotInUseAmt": "",
+            "crossLiab": "",
+            "disEq": "117.66040562656372",
+            "eq": "117.79822955514324",
+            "eqUsd": "117.66040562656372",
+            "fixedBal": "0",
+            "frozenBal": "30.26886",
+            "imr": "30.26886",
+            "interest": "",
+            "isoEq": "0",
+            "isoLiab": "",
+            "isoUpl": "0",
+            "liab": "",
+            "maxLoan": "",
+            "maxSpotInUse": "",
+            "mgnRatio": "10.29112434452225",
+            "mmr": "10.4767425",
+            "notionalLever": "16.466164282138067",
+            "openAvgPx": "",
+            "ordFrozen": "0",
+            "rewardBal": "0",
+            "smtSyncEq": "0",
+            "spotBal": "",
+            "spotCopyTradingEq": "0",
+            "spotInUseAmt": "",
+            "spotIsoBal": "0",
+            "spotUpl": "",
+            "spotUplRatio": "",
+            "stgyEq": "0",
+            "totalPnl": "",
+            "totalPnlRatio": "",
+            "twap": "0",
+            "uTime": "1737379526196",
+            "upl": "11.95730802139046",
+            "uplLiab": ""
+        }
+    ],
+    "imr": "",
+    "isoEq": "0",
+    "mgnRatio": "",
+    "mmr": "",
+    "notionalUsd": "",
+    "ordFroz": "",
+    "totalEq": "117.66278212231653",
+    "uTime": "1737386333884",
+    "upl": ""
+}
+2025-01-20 18:19:01,773 [INFO] Logger initialized successfully.
+2025-01-20 18:19:01,773 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:19:01,773 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:19:02,117 [INFO] OKX client initialized successfully.
+2025-01-20 18:19:02,426 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:19:02,427 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:19:02,427 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "106481.6",
+        "liqPx": "119527.49758028162",
+        "mgnRatio": "10.173202679596127",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "120.72",
+        "liqPx": "88.72731393843476",
+        "mgnRatio": "10.173202679596127",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.798",
+        "liqPx": "2.158603399920867",
+        "mgnRatio": "10.173202679596127",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.039",
+        "liqPx": "20.482375578780772",
+        "mgnRatio": "10.173202679596127",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:19:02,428 [INFO] None
+2025-01-20 18:19:02,714 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:19:02,715 [INFO] Successfully retrieved balances.
+2025-01-20 18:19:02,715 [INFO] [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+]
+2025-01-20 18:19:12,443 [INFO] Logger initialized successfully.
+2025-01-20 18:19:12,443 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:19:12,443 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:19:12,782 [INFO] OKX client initialized successfully.
+2025-01-20 18:19:13,226 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:19:13,227 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:19:13,227 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "106424.3",
+        "liqPx": "119395.89665942547",
+        "mgnRatio": "10.128560419001857",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "120.72",
+        "liqPx": "88.9095234046986",
+        "mgnRatio": "10.128560419001857",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.788",
+        "liqPx": "2.1636356808876336",
+        "mgnRatio": "10.128560419001857",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.004",
+        "liqPx": "20.47902248607923",
+        "mgnRatio": "10.128560419001857",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:19:13,227 [INFO] None
+2025-01-20 18:19:13,526 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:19:13,528 [INFO] Successfully retrieved balances.
+2025-01-20 18:19:13,528 [INFO] [
+    {
+        "adjEq": "",
+        "borrowFroz": "",
+        "details": [
+            {
+                "accAvgPx": "",
+                "availBal": "0.00000000628",
+                "availEq": "0.00000000628",
+                "borrowFroz": "",
+                "cashBal": "0.00000000628",
+                "ccy": "BTC",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.00065420225752",
+                "eq": "0.00000000628",
+                "eqUsd": "0.000667553324",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1729548617001",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "0.0000002290573188",
+                "availEq": "0.0000002290573188",
+                "borrowFroz": "",
+                "cashBal": "0.0000002290573188",
+                "ccy": "ETH",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.0007505630196403",
+                "eq": "0.0000002290573188",
+                "eqUsd": "0.0007658806322861",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737361383748",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "0.0000001051368927",
+                "availEq": "0.0000001051368927",
+                "borrowFroz": "",
+                "cashBal": "0.0000001051368927",
+                "ccy": "SOL",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0.0000253116017806",
+                "eq": "0.0000001051368927",
+                "eqUsd": "0.000026643791348",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737360743656",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "-3279.7514103163276",
+                "availBal": "0.000748",
+                "availEq": "0.000748",
+                "borrowFroz": "",
+                "cashBal": "0.000748",
+                "ccy": "FET",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "0",
+                "eq": "0.000748",
+                "eqUsd": "0.0009118868",
+                "fixedBal": "0",
+                "frozenBal": "0",
+                "imr": "0",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "",
+                "mmr": "0",
+                "notionalLever": "0",
+                "openAvgPx": "1.2726053852189003",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "0.000748",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "-0.0000400220281437",
+                "spotUplRatio": "-0.0420439720280587",
+                "stgyEq": "0",
+                "totalPnl": "2.45416594171661",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1731862911738",
+                "upl": "0",
+                "uplLiab": ""
+            },
+            {
+                "accAvgPx": "",
+                "availBal": "85.43878155514318",
+                "availEq": "85.43878155514318",
+                "borrowFroz": "",
+                "cashBal": "105.84092153375278",
+                "ccy": "USDT",
+                "clSpotInUseAmt": "",
+                "crossLiab": "",
+                "disEq": "115.49713961256367",
+                "eq": "115.63242955514319",
+                "eqUsd": "115.49713961256367",
+                "fixedBal": "0",
+                "frozenBal": "30.193648000000003",
+                "imr": "30.193648000000003",
+                "interest": "",
+                "isoEq": "0",
+                "isoLiab": "",
+                "isoUpl": "0",
+                "liab": "",
+                "maxLoan": "",
+                "maxSpotInUse": "",
+                "mgnRatio": "10.12614314994805",
+                "mmr": "10.4515012",
+                "notionalLever": "16.73745684879036",
+                "openAvgPx": "",
+                "ordFrozen": "0",
+                "rewardBal": "0",
+                "smtSyncEq": "0",
+                "spotBal": "",
+                "spotCopyTradingEq": "0",
+                "spotInUseAmt": "",
+                "spotIsoBal": "0",
+                "spotUpl": "",
+                "spotUplRatio": "",
+                "stgyEq": "0",
+                "totalPnl": "",
+                "totalPnlRatio": "",
+                "twap": "0",
+                "uTime": "1737379526196",
+                "upl": "9.791508021390413",
+                "uplLiab": ""
+            }
+        ],
+        "imr": "",
+        "isoEq": "0",
+        "mgnRatio": "",
+        "mmr": "",
+        "notionalUsd": "",
+        "ordFroz": "",
+        "totalEq": "115.4995115771113",
+        "uTime": "1737386353421",
+        "upl": ""
+    }
+]
+2025-01-20 18:22:23,583 [INFO] Logger initialized successfully.
+2025-01-20 18:22:23,584 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:22:23,584 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:22:23,962 [INFO] OKX client initialized successfully.
+2025-01-20 18:22:24,411 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:22:24,412 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:22:24,412 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "106606.3",
+        "liqPx": "120499.49086052054",
+        "mgnRatio": "10.71833612335168",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "121.8",
+        "liqPx": "87.72948159689247",
+        "mgnRatio": "10.71833612335168",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.821",
+        "liqPx": "2.010182231743627",
+        "mgnRatio": "10.71833612335168",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.217",
+        "liqPx": "20.299488908933952",
+        "mgnRatio": "10.71833612335168",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:22:24,413 [INFO] None
+2025-01-20 18:22:24,716 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:22:24,717 [INFO] An error occurred while fetching balance: name 'balances_data' is not defined
+2025-01-20 18:22:24,718 [INFO] []
+2025-01-20 18:22:36,042 [INFO] Logger initialized successfully.
+2025-01-20 18:22:36,042 [INFO] Data directory: /Users/ekinbasarkomur/projects/Portfolium/data
+2025-01-20 18:22:36,042 [INFO] Loaded API keys for Binance and OKX.
+2025-01-20 18:22:36,405 [INFO] OKX client initialized successfully.
+2025-01-20 18:22:36,858 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/positions "HTTP/2 200 OK"
+2025-01-20 18:22:36,859 [INFO] Successfully retrieved 4 positions.
+2025-01-20 18:22:36,859 [INFO] [
+    {
+        "instId": "BTC-USDT-SWAP",
+        "pos": "0.8",
+        "posSide": "short",
+        "lever": "100",
+        "avgPx": "107378.85",
+        "markPx": "106537.4",
+        "liqPx": "120250.993722641",
+        "mgnRatio": "10.606552824196305",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176915385051004928",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "108750",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LTC-USDT-SWAP",
+        "pos": "3.3",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "119.78",
+        "markPx": "121.57",
+        "liqPx": "87.93991084404675",
+        "mgnRatio": "10.606552824196305",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177039094940188672",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "111",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "TIA-USDT-SWAP",
+        "pos": "40",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "4.8960000000000001",
+        "markPx": "4.803",
+        "liqPx": "2.0285176446338564",
+        "mgnRatio": "10.606552824196305",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2177040019297681408",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "4.3",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    },
+    {
+        "instId": "LINK-USDT-SWAP",
+        "pos": "19",
+        "posSide": "long",
+        "lever": "50",
+        "avgPx": "25.8250785251899805",
+        "markPx": "26.189",
+        "liqPx": "20.347984515018645",
+        "mgnRatio": "10.606552824196305",
+        "closeOrderAlgo": [
+            {
+                "algoId": "2176323993220169728",
+                "closeFraction": "1.0",
+                "ordType": "",
+                "slTriggerPx": "23.4",
+                "slTriggerPxType": "last",
+                "tpTriggerPx": "0",
+                "tpTriggerPxType": "last"
+            }
+        ]
+    }
+]
+2025-01-20 18:22:36,859 [INFO] None
+2025-01-20 18:22:37,183 [INFO] HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2025-01-20 18:22:37,184 [INFO] Successfully retrieved balances.
+2025-01-20 18:22:37,185 [INFO] [
+    {
+        "ccy": "BTC",
+        "availBal": "0.00000000628",
+        "eqUsd": "0.000668349"
+    },
+    {
+        "ccy": "ETH",
+        "availBal": "0.0000002290573188",
+        "eqUsd": "0.0007670419528924"
+    },
+    {
+        "ccy": "SOL",
+        "availBal": "0.0000001051368927",
+        "eqUsd": "0.0000267131816972"
+    },
+    {
+        "ccy": "FET",
+        "availBal": "0.000748",
+        "eqUsd": "0.0009147292"
+    },
+    {
+        "ccy": "USDT",
+        "availBal": "91.27504155514315",
+        "eqUsd": "121.47392098826808"
+    }
+]

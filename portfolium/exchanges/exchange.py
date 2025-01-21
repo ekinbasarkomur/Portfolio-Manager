@@ -1,24 +1,34 @@
 import abc
 
 from portfolium.configs import *
+    
+class ExchangeAPI:
+    def __init__(self, api_key, api_secret, use_testnet=False):
+        """
+        Initialize the Exchange client.
 
-
-class ExchangeHandler:
+        Parameters:
+        - api_key (str): Your API key.
+        - api_secret (str): Your API secret key.
+        - use_testnet (bool): Use the Testnet if True.
+        """
+        self.api_key = api_key
+        self.api_secret = api_secret
+        self.use_testnet = use_testnet
+        self.client = None
 
     @abc.abstractmethod
-    def get_candle_stick_data(self, symbol: str, tf: str):
+    def initialize_client(self):
+        """Abstract method to initialize the exchange client."""
         pass
 
-    def get_symbol(self, symbol: str) -> str:
-        return symbol.replace("-", "")
+    @abc.abstractmethod
+    def get_positions(self):
+        """Abstract method to fetch futures positions."""
+        pass
 
-    @staticmethod
-    def is_symbol_eligible(historical_12h_data):
-        """
-        function to check if a given coin is eligible. Checks coins that have at least 46 days historical data
-        :param historical_12h_data:
-        :return: boolean
-        """
-        total_days_data = (len(historical_12h_data) * 4) / 24
+    @abc.abstractmethod
+    def get_balance(self):
+        """Abstract method to fetch account balance."""
+        pass
 
-        return total_days_data > COINS_HISTORY_DATA_THRESHOLD
