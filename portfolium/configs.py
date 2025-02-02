@@ -7,9 +7,6 @@ load_dotenv()
 
 DATA_DIR =  os.environ.get("DATA_DIR", str(os.getcwd()) + "/data")
 
-EXCHANGES = {}
-
-
 # Binance API keys
 ############################################
 BINANCE_EXCHANGE="binance"

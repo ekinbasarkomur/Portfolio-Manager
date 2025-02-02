@@ -4,6 +4,7 @@ from portfolium.exchanges.okx import OKX
 from portfolium.web.flask import app as flask_app
 from portfolium.web.gunicorn import PortfoliumApp
 from portfolium.utils.logger import setup_logger
+from portfolium.exchanges.exchange_manager import ExchangeManager
 
 import typer
 import os
@@ -17,14 +18,10 @@ logger = setup_logger(LOGGER_NAME, LOG_LEVEL)
 
 @cli_app.command()
 def test(file_name: str = typer.Argument("")):
+    exchange_list = [BINANCE_EXCHANGE, OKX_EXCHANGE]
 
-    okx = OKX(OKX_API_KEY, OKX_SECRET_KEY, OKX_PASSPHRASE)
-    binance = Binance(BINANCE_API_KEY, BINANCE_SECRET_KEY)
-    EXCHANGES[OKX_EXCHANGE] = okx
-    EXCHANGES[BINANCE_EXCHANGE] = binance
-
-    balance = EXCHANGES[OKX_EXCHANGE].get_positions()
-    logger.info(json.dumps(balance, indent=4))
+    exchange_manager = ExchangeManager()
+    exchange_manager.create_exchanges(exchange_list)
 
 
 @cli_app.command()
@@ -32,11 +29,6 @@ def server():
     """
     Start the server.
     """
-
-    okx = OKX(OKX_API_KEY, OKX_SECRET_KEY, OKX_PASSPHRASE)
-    binance = Binance(BINANCE_API_KEY, BINANCE_SECRET_KEY)
-    EXCHANGES[OKX_EXCHANGE] = okx
-    EXCHANGES[BINANCE_EXCHANGE] = binance
 
     options = {
         "bind": "0.0.0.0:8000",
